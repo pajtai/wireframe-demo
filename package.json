@@ -12,11 +12,25 @@
   },
   "author": "",
   "license": "ISC",
+  "browserify": {
+    "transform": [
+      [
+        "riotify",
+        {
+          "template": "jade"
+        }
+      ]
+    ]
+  },
   "bugs": {
     "url": "https://github.com/pajtai/wireframe-demo/issues"
   },
   "homepage": "https://github.com/pajtai/wireframe-demo#readme",
   "devDependencies": {
+    "bluebird": "^2.10.1",
+    "flux": "^2.1.1",
+    "riot": "^2.2.4",
+    "riotify": "^0.1.2",
     "sass-flex-mixin": "^1.0.0"
   }
 }

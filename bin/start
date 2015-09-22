@@ -4,13 +4,13 @@ SWITCHED=false
 (./bin/sass) &
 (./bin/jade) &
 (NODE_ENV=dev ./bin/watchify) &
-cd app && SWITCHED=true
+cd app/public && SWITCHED=true
 python -m SimpleHTTPServer
 
 function finish {
     if [ $SWITCHED ]
     then
-        cd ..;
+        cd ../..;
     fi
 }
 

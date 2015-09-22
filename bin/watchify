@@ -2,4 +2,4 @@
 
 ./bin/installDeps
 
-watchify -o app/bundle.js -v -d app
+watchify -o app/public/bundle.js -v -d app/main.js
