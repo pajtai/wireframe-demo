@@ -1,38 +1,40 @@
 {
-  "name": "wireframe-demo",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pajtai/wireframe-demo.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "browserify": {
-    "transform": [
-      [
-        "riotify",
-        {
-          "template": "jade"
-        }
-      ]
-    ]
-  },
-  "bugs": {
-    "url": "https://github.com/pajtai/wireframe-demo/issues"
-  },
-  "homepage": "https://github.com/pajtai/wireframe-demo#readme",
-  "devDependencies": {
-    "bluebird": "^2.10.1",
-    "flux": "^2.1.1",
-    "jade": "^1.11.0",
-    "lodash": "^3.10.1",
-    "riot": "^2.2.4",
-    "riotify": "^0.1.2",
-    "sass-flex-mixin": "^1.0.0"
-  }
+    "name": "wireframe-demo",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start" : "node app"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pajtai/wireframe-demo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "browserify": {
+        "transform": [
+            [
+                "riotify",
+                {
+                    "template": "jade"
+                }
+            ]
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/pajtai/wireframe-demo/issues"
+    },
+    "homepage": "https://github.com/pajtai/wireframe-demo#readme",
+    "devDependencies": {
+        "bluebird": "^2.10.1",
+        "flux": "^2.1.1",
+        "jade": "^1.11.0",
+        "lodash": "^3.10.1",
+        "riot": "^2.2.4",
+        "riotify": "^0.1.2",
+        "sass-flex-mixin": "^1.0.0",
+        "wireframe-ui": "^0.0.0"
+    }
 }
