@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-node-sass app/style.scss --source-map app/style.map app/style.css
-postcss --use autoprefixer -o app/style.css app/style.css
+node-sass app/style.scss --source-map app/public/style.map app/public/style.css
+postcss --use autoprefixer -o app/public/style.css app/public/style.css

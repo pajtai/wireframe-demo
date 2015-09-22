@@ -6,4 +6,4 @@ node-sass app/style.scss --source-map app/public/style.map app/public/style.css
 
 postcss --use autoprefixer -o app/public/style.css app/public/style.css
 
-(watch  ./bin/sassAutoprefixerWatch app/sass)
+(watch  ./bin/sassAutoprefixerWatch app/views)

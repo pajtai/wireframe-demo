@@ -34,3 +34,10 @@ if ! command -v watchify >/dev/null 2>&1
 then
     npm install -g watchify
 fi
+
+if ! command -v bower >/dev/null 2>&1
+then
+    npm install -g bower
+fi
+
+bower install
