@@ -13,16 +13,6 @@
     },
     "author": "",
     "license": "ISC",
-    "browserify": {
-        "transform": [
-            [
-                "riotify",
-                {
-                    "template": "jade"
-                }
-            ]
-        ]
-    },
     "bugs": {
         "url": "https://github.com/pajtai/wireframe-demo/issues"
     },
