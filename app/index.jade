@@ -12,10 +12,10 @@ head
     link(href=pureGridCss, rel='stylesheet')
     link(href=styleCss, rel='stylesheet')
 body
-    app
-        header
-            navigation
+    app(project='{ opts }')
+        header(title='{ opts.title }', nav_items='{ opts.nav_items }')
+            navigation(nav_items='{ opts.nav_items }')
         .pure-g
-            list.pure-u-1.pure-u-md-1-3
-            list.pure-u-1.pure-u-md-2-3
+            list(list='{ opts.list1 }').pure-u-1.pure-u-md-1-3
+            list(list='{ opts.list2 }').pure-u-1.pure-u-md-2-3
     script(type='text/javascript', src=bundleJs)

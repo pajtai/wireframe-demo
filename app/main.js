@@ -11,6 +11,23 @@ require('./views/list/template.tag');
 init();
 
 function init() {
-    riot.mount(appView);
+    var appState = {
+        title : 'Project Title',
+        nav_items : [
+            'Home',
+            'Gallery',
+            'About'
+        ],
+        list1 : [
+            'So much list',
+            'List is so list',
+            'Many words'
+        ],
+        list2 : [
+            'Such list',
+            'List is much list'
+        ]
+    };
+    riot.mount(appView, appState);
 }
 
