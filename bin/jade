@@ -5,4 +5,4 @@ if ! command -v jade >/dev/null 2>&1
         npm install -g jade
     fi
 
-jade app/index.jade --watch
+jade app/index.jade -o app/public --watch

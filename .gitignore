@@ -1,9 +1,5 @@
 .DS_Store
 .idea/
 /node_modules/
-/app/assets/portal.jpg
 /build/
-/app/index.html
-/app/bundle.js
-/app/style.map
-/app/style.css
+/app/public/

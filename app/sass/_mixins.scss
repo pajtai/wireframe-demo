@@ -1,0 +1,39 @@
+@mixin a-tag($regular-color, $hover-color) {
+    text-decoration: none;
+    color: $regular-color;
+
+    transition: color 0.4s ease;
+
+    &:hover {
+        cursor: pointer;
+        color: $hover-color;
+    }
+}
+
+@mixin main-title() {
+	color: $accent;
+	font-weight: bold;
+	font-size: $text-normal;
+}
+
+// http://www.sitepoint.com/managing-responsive-breakpoints-sass/
+
+@mixin respond-to($name) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $name) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+
+    // If the key doesn't exist in the map
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$name}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}
+
+@mixin upper-case() {
+	text-transform: uppercase;
+}
