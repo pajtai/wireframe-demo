@@ -1,5 +1,7 @@
 {
     "views" : [
-        "wireframe-ui-header"
+        "wireframe-ui-header",
+        "wireframe-ui-list",
+        "wireframe-ui-navigation"
     ]
 }

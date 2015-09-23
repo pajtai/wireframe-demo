@@ -12,25 +12,12 @@
     "url": "git+https://github.com/pajtai/wireframe-demo.git"
   },
   "author": "",
-  "browserify": {
-    "transform": [
-      [
-        "riotify",
-        {
-          "template": "jade"
-        }
-      ]
-    ]
-  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pajtai/wireframe-demo/issues"
   },
   "homepage": "https://github.com/pajtai/wireframe-demo#readme",
   "dependencies": {
-    "jade": "^1.11.0",
-    "riotify": "^0.1.2",
-    "wireframe-ui": "0.0.1",
-    "wireframe-ui-header": "^1.0.2"
+    "wireframe-ui": "0.0.4"
   }
 }
