@@ -21,9 +21,18 @@ function init() {
             list2 : [
                 'Such list',
                 'List is much list'
-            ]
+            ],
+            handlers : {
+                open_modal : open_modal
+            }
         };
 
     wireframe.start(appState);
 }
 
+function open_modal() {
+    wireframe.trigger('modal:open', {
+        title : 'Sign up now!',
+        content: 'To buy things, you must first complete our 30 step sign up process.'
+    });
+}

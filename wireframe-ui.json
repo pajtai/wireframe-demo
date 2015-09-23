@@ -2,6 +2,7 @@
     "views" : [
         "wireframe-ui-header",
         "wireframe-ui-list",
-        "wireframe-ui-navigation"
+        "wireframe-ui-navigation",
+        "wireframe-ui-modal"
     ]
 }

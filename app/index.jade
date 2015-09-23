@@ -14,6 +14,8 @@ body
         header(title='{ opts.title }', nav_items='{ opts.nav_items }')
             navigation(nav_items='{ opts.nav_items }')
         .pure-g
+            button(onclick='{ opts.handlers.open_modal }').pure-u-1 Buy now!
             list(list='{ opts.list1 }').pure-u-1.pure-u-md-1-3
             list(list='{ opts.list2 }').pure-u-1.pure-u-md-2-3
+            modal.pure-u-1
     script(type='text/javascript', src='/bundle.js')
