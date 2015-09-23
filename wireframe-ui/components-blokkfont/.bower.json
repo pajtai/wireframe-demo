@@ -1,0 +1,18 @@
+{
+  "name": "components-blokkfont",
+  "main": "BLOKKRegular/webfonts/style.css",
+  "ignore": [
+    "*.html"
+  ],
+  "homepage": "https://github.com/components/blokkfont",
+  "version": "0.0.1",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "816a71228d0834af62c36fcff7cbc062fc65ede5"
+  },
+  "_source": "git://github.com/components/blokkfont.git",
+  "_target": "~0.0.1",
+  "_originalSource": "components-blokkfont"
+}

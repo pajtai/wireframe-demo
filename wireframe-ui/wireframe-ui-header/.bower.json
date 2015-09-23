@@ -1,0 +1,26 @@
+{
+  "name": "wireframe-ui-header",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wireframe-ui/wireframe-ui-header",
+  "authors": [
+    "Peter Ajtai <peter.ajtai@thinksolid.com>"
+  ],
+  "license": "ICS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.0",
+    "commit": "dcf44565320776a197765f8f027fd9528be49a87"
+  },
+  "_source": "git://github.com/wireframe-ui/wireframe-ui-header.git",
+  "_target": "~0.0.0",
+  "_originalSource": "wireframe-ui-header",
+  "_direct": true
+}

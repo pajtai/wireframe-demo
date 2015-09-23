@@ -1,0 +1,26 @@
+{
+  "name": "wireframe-ui-list",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wireframe-ui/wireframe-ui-list",
+  "authors": [
+    "Peter Ajtai <peter.ajtai@thinksolid.com>"
+  ],
+  "license": "ICS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.0",
+    "commit": "e35e12039b692ed030fbc4a90e35598da78d02be"
+  },
+  "_source": "git://github.com/wireframe-ui/wireframe-ui-list.git",
+  "_target": "~0.0.0",
+  "_originalSource": "wireframe-ui-list",
+  "_direct": true
+}

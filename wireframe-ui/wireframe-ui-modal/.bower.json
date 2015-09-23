@@ -1,0 +1,26 @@
+{
+  "name": "wireframe-ui-modal",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wireframe-ui/wireframe-ui-modal",
+  "authors": [
+    "Peter Ajtai <peter.ajtai@thinksolid.com>"
+  ],
+  "license": "ICS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "5b85b921c7ca615c00a48cff82078f0d926980b4"
+  },
+  "_source": "git://github.com/wireframe-ui/wireframe-ui-modal.git",
+  "_target": "~0.0.1",
+  "_originalSource": "wireframe-ui-modal",
+  "_direct": true
+}

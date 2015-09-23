@@ -1,0 +1,26 @@
+{
+  "name": "wireframe-ui-navigation",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wireframe-ui/wireframe-ui-navigation",
+  "authors": [
+    "Peter Ajtai <peter.ajtai@thinksolid.com>"
+  ],
+  "license": "ICS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.0",
+    "commit": "5c2a03d4d28699ecfa52ea48f377648dd8e371fb"
+  },
+  "_source": "git://github.com/wireframe-ui/wireframe-ui-navigation.git",
+  "_target": "~0.0.0",
+  "_originalSource": "wireframe-ui-navigation",
+  "_direct": true
+}

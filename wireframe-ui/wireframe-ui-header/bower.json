@@ -1,0 +1,16 @@
+{
+  "name": "wireframe-ui-header",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wireframe-ui/wireframe-ui-header",
+  "authors": [
+    "Peter Ajtai <peter.ajtai@thinksolid.com>"
+  ],
+  "license": "ICS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
